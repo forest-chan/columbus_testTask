@@ -149,8 +149,8 @@ if(is_sended()){
     $db_config = [
         'host' => 'localhost',
         'dbname' => 'columbus_junior',
-        'username' => 'forest-chan',
-        'password' => '17351935',
+        'username' => 'user',
+        'password' => 'pass',
     ];
     $tabname = 'catalog';
     $db = connect_to_db($db_config);
